@@ -1,7 +1,7 @@
 ul {
   display: inline-flex;
   /*flex-direction: column;*/
-  flex-wrap: ;
+  flex-wrap: wrap;
 }
 
 li {
