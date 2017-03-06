@@ -1,5 +1,7 @@
 ul {
-  display: flex;
+  display: inline-flex;
+  /*flex-direction: column;*/
+  flex-wrap: ;
 }
 
 li {
@@ -7,4 +9,5 @@ li {
   height: 100px;
   background-color: #8cacea;
   margin: 8px;
+  list-style: none;
 }
