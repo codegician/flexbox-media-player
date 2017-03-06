@@ -1,14 +1,14 @@
 ul {
-  display: inline-flex;
+  display: flex;
   /*flex-direction: column;*/
   /*flex-wrap: wrap-reverse;*/
   flex-flow: row wrap;
-  justify-content: center;
   border: 1px solid red;
   list-style: none;
   background-color: #e8e8e9;
   padding: 0;
-
+  /*justify-content: space-around;*/
+  align-items: stretch;;
 }
 
 li {
