@@ -18,8 +18,10 @@ li {
   background-color: #8cacea;
   margin: 8px;
   padding: 4px;
+  flex: 0 1 auto;
 }
 
 li:nth-child(1) {
-  order:1; 
+  order:1;
+  flex-grow: 1;
 }
