@@ -63,6 +63,33 @@ li span.catty-cloud {
 li:nth-child(2n) {
   background-color: #f2f2f2;
 }
+.catty-music {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  color: #FFF;
+  padding-left: 50px;
+}
+.catty-music dic:nth-child(1){
+  margin-bottom: auto;
+}
+.catty-music div:nth-child(2){
+  margin-top: 0;
+}
+.catty-music div:nth-child(2) i.fa{
+  font-size: 0.9em;
+  padding: 0 0.7em;
+  font-weight: 300;
+}
+.catty-music div:nth-child(1) p:first-child{
+  font-size: 1.8em;
+  margin: 0 0 10px;
+}
+.catty-music div:nth-child(1) p:not(:first-child){
+  font-size: 0.9em;
+  margin: 2px 0;
+}
 footer {
   flex: 0 0 90px;
   padding: 10px;
