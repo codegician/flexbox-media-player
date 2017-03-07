@@ -6,6 +6,11 @@ html,
 body {
   display: flex;
   flex-direction: column;
+  background-color: #FFF;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  color: #222;
+  font-size: .9em;
 }
 
 main {
@@ -14,4 +19,7 @@ main {
 
 footer {
   flex: 0 0 90px;
+  padding: 10px;
+  color: #FFF;
+  background-color: rgba(61, 100, 158, .9);
 }
