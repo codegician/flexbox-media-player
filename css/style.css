@@ -27,7 +27,22 @@ aside {
   background-color: #f2f2f2;
   font-size: .9em;
 }
-
+.content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+.music-head{
+  flex: 1 0 auto;
+  display: flex;
+  padding: 40px;
+  background-color: #4e4e4e;
+}
+.music-list {
+    flex: 1 0 auto;
+    list-style-type: none;
+    padding: 5px 10px 0px;
+}
 footer {
   flex: 0 0 90px;
   padding: 10px;
